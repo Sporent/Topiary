@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "topiary",
+	"version": "${version}",
+	"name": "Topiary",
+	"description": "Aims to improve upon and add a range of new foliage to the game while staying true to vanilla. :]",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/topiary/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sporent.topiary.Topiary"
+		],
+		"client": [
+			"net.sporent.topiary.TopiaryClient"
+		],
+		"fabric-datagen": [
+			"net.sporent.topiary.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"topiary.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
