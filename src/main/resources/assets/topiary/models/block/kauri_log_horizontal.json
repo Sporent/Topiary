@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
     "end": "topiary:block/kauri_log_top",
     "side": "topiary:block/kauri_log"

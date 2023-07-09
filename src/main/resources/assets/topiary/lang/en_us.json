@@ -1,3 +1,8 @@
 {
-  "item.topiary.kauri_sapling": "Kauri Sapling"
+  "item.topiary.kauri_sapling": "Kauri Sapling",
+
+  "block.topiary.kauri_log": "Kauri Log",
+  "block.topiary.kauri_planks": "Kauri Planks",
+
+  "itemgroup.topiary": "Topiary"
 }

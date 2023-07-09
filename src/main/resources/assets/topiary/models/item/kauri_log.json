@@ -1,4 +1,4 @@
 {
-  "parent": "tutorial:block/example_block"
+  "parent": "topiary:block/kauri_log"
 }
 
