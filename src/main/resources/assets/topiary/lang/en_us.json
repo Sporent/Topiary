@@ -2,6 +2,9 @@
   "item.topiary.kauri_sapling": "Kauri Sapling",
 
   "block.topiary.kauri_log": "Kauri Log",
+  "block.topiary.kauri_wood": "Kauri Wood",
+  "block.topiary.stripped_kauri_log": "Stripped Kauri Log",
+  "block.topiary.stripped_kauri_wood": "Stripped Kauri Wood",
   "block.topiary.kauri_planks": "Kauri Planks",
 
   "itemgroup.topiary": "Topiary"
