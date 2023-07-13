@@ -7,7 +7,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sporent.topiary.Topiary;
-import net.sporent.topiary.block.TopiaryBlocks;
 
 public class TopiaryItems{
 

@@ -16,8 +16,16 @@ import net.sporent.topiary.Topiary;
 public class TopiaryBlocks {
 
     //instantiating all blocks for topiary
-    public static final PillarBlock KAURI_LOG = (registerPillarBlock("kauri_log", new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE))));
-    public static final Block KAURI_PLANKS = (registerBlock("kauri_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE))));
+    public static final PillarBlock KAURI_LOG = (registerPillarBlock("kauri_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE))));
+    public static final PillarBlock KAURI_WOOD = (registerPillarBlock("kauri_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).mapColor(MapColor.OFF_WHITE))));
+    public static final PillarBlock STRIPPED_KAURI_LOG = (registerPillarBlock("stripped_kauri_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).mapColor(MapColor.OFF_WHITE))));
+    public static final PillarBlock STRIPPED_KAURI_WOOD = (registerPillarBlock("stripped_kauri_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).mapColor(MapColor.OFF_WHITE))));
+    public static final Block KAURI_PLANKS = (registerBlock("kauri_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE))));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "topiary:block/kauri_log",
+    "side": "topiary:block/kauri_log"
+  }
+}

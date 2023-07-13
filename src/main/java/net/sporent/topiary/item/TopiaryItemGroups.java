@@ -19,6 +19,9 @@ public class TopiaryItemGroups {
                     .icon(() -> new ItemStack(TopiaryItems.KAURI_SAPLING))
                     .entries((displayContext, entries) -> {
                         entries.add(TopiaryBlocks.KAURI_LOG);
+                        entries.add(TopiaryBlocks.KAURI_WOOD);
+                        entries.add(TopiaryBlocks.STRIPPED_KAURI_LOG);
+                        entries.add(TopiaryBlocks.STRIPPED_KAURI_WOOD);
                         entries.add(TopiaryBlocks.KAURI_PLANKS);
 
                         entries.add(TopiaryItems.KAURI_SAPLING);
