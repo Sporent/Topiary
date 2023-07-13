@@ -16,7 +16,7 @@ public class TopiaryItemGroups {
             new Identifier(Topiary.MOD_ID, "kauri_sapling"),
             FabricItemGroup.builder()
                     .displayName(Text.translatable("itemgroup.topiary"))
-                    .icon(() -> new ItemStack(TopiaryItems.KAURI_SAPLING))
+                    .icon(() -> new ItemStack(TopiaryBlocks.KAURI_LOG))
                     .entries((displayContext, entries) -> {
                         entries.add(TopiaryBlocks.KAURI_LOG);
                         entries.add(TopiaryBlocks.KAURI_WOOD);
