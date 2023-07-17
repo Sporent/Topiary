@@ -2,10 +2,7 @@ package net.sporent.topiary.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,24 +13,25 @@ import net.sporent.topiary.Topiary;
 public class TopiaryBlocks {
 
     //instantiating all blocks for topiary
-    public static final PillarBlock KAURI_LOG = (registerPillarBlock("kauri_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE))));
-    public static final PillarBlock KAURI_WOOD = (registerPillarBlock("kauri_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).mapColor(MapColor.OFF_WHITE))));
-    public static final PillarBlock STRIPPED_KAURI_LOG = (registerPillarBlock("stripped_kauri_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).mapColor(MapColor.OFF_WHITE))));
-    public static final PillarBlock STRIPPED_KAURI_WOOD = (registerPillarBlock("stripped_kauri_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).mapColor(MapColor.OFF_WHITE))));
+    public static final Block KAURI_LOG = (registerBlock("kauri_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_WOOD = (registerBlock("kauri_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block STRIPPED_KAURI_LOG = (registerBlock("stripped_kauri_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block STRIPPED_KAURI_WOOD = (registerBlock("stripped_kauri_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
     public static final Block KAURI_PLANKS = (registerBlock("kauri_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE))));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE).strength(4.0f).requiresTool())));
+
+    public static final Block KAURI_LEAVES = (registerBlock("kauri_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES))));
+
+    public static final Block KAURI_SAPLING = (registerBlock("kauri_planks",
+            new SaplingBlock(, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE))));
 
 
     private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(Topiary.MOD_ID, name), block);
-    }
-
-    private static PillarBlock registerPillarBlock(String name, PillarBlock block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Topiary.MOD_ID, name), block);
     }
