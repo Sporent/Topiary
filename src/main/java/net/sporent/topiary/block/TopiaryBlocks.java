@@ -27,9 +27,13 @@ public class TopiaryBlocks {
     public static final Block KAURI_LEAVES = (registerBlock("kauri_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES))));
 
-    public static final Block KAURI_SAPLING = (registerBlock("kauri_planks",
-            new SaplingBlock(, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE))));
+    public static final Block KAURI_SAPLING = (registerBlockWithoutBlockItem("kauri_sapling",
+            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING))));
 
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(Topiary.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
