@@ -22,6 +22,7 @@ public class TopiaryRecipeGenerator extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerPlanksRecipe(exporter, TopiaryBlocks.KAURI_PLANKS, TopiaryTags.KAURI_LOGS_BLOCKITEM, 4);
         offerBarkBlockRecipe(exporter, TopiaryBlocks.KAURI_WOOD, TopiaryBlocks.KAURI_LOG);
+        offerBarkBlockRecipe(exporter, TopiaryBlocks.STRIPPED_KAURI_WOOD, TopiaryBlocks.STRIPPED_KAURI_LOG);
         offerSmelting(exporter, List.of(TopiaryBlocks.KAURI_LOG, TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_WOOD, TopiaryBlocks.STRIPPED_KAURI_WOOD),
                 RecipeCategory.MISC, Items.CHARCOAL, 0.15f, 200, "kauri");
     }

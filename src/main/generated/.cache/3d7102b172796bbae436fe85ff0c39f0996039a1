@@ -1,4 +1,5 @@
-// 1.20.1	2023-07-13T22:31:52.7388679	Topiary/Recipes
+// 1.20.1	2023-07-17T22:46:56.569193	Topiary/Recipes
+60c9b22ffd422c833192648045c14a91aa702252 data\topiary\recipes\stripped_kauri_wood.json
 958cbc126a3d67e00ca4e8f565b5fdb9b4a210ad data\topiary\recipes\charcoal_from_smelting_kauri_log.json
 e596f27c065e2db0ee6eb3f2bae424762a9c9921 data\topiary\recipes\charcoal_from_smelting_stripped_kauri_log.json
 a2975946cd19745719fc3b90082528fd07525f56 data\topiary\recipes\kauri_planks.json
@@ -10,4 +11,5 @@ fe14e2a590b3b86fcf50d38b07c227266b62324f data\topiary\advancements\recipes\build
 9a5e32dcd05da22880bbeb01b26756173df9116c data\topiary\recipes\kauri_wood.json
 c8f12c5bf362cb80d29148c1f68ff50f72d9f7de data\topiary\advancements\recipes\misc\charcoal_from_smelting_kauri_wood.json
 8aa747211d9a9cc66be9a4b6de15d7b7cb538d72 data\topiary\recipes\charcoal_from_smelting_stripped_kauri_wood.json
+347d671eabbce8a3c108e71ce12a567a90e4f295 data\topiary\advancements\recipes\building_blocks\stripped_kauri_wood.json
 dd944d39260599242d32d71f5ac2b28573db86a1 data\topiary\advancements\recipes\building_blocks\kauri_wood.json

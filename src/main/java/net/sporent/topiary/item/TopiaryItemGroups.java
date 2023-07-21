@@ -24,7 +24,8 @@ public class TopiaryItemGroups {
                         entries.add(TopiaryBlocks.STRIPPED_KAURI_WOOD);
                         entries.add(TopiaryBlocks.KAURI_PLANKS);
 
-                        entries.add(TopiaryItems.KAURI_SAPLING);
+                        entries.add(TopiaryBlocks.KAURI_LEAVES);
+                        entries.add(TopiaryBlocks.KAURI_SAPLING);
                     }).build());
 
     public static void register() {
