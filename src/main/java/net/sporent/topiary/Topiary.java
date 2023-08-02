@@ -9,6 +9,7 @@ import net.sporent.topiary.block.TopiaryFlammableBlockRegistry;
 import net.sporent.topiary.block.TopiaryStrippableBlockRegistry;
 import net.sporent.topiary.item.TopiaryItemGroups;
 import net.sporent.topiary.item.TopiaryItems;
+import net.sporent.topiary.world.gen.TopiaryWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,5 +24,6 @@ public class Topiary implements ModInitializer {
 		TopiaryBlocks.register();
 		TopiaryFlammableBlockRegistry.registerFlammableBlocks();
 		TopiaryStrippableBlockRegistry.registerStrippableBlocks();
+		TopiaryWorldGeneration.generateWorldGen();
 	}
 }

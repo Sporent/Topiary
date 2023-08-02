@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sporent.topiary.Topiary;
+import net.sporent.topiary.world.tree.KauriSaplingGenerator;
 
 public class TopiaryBlocks {
 
@@ -28,7 +29,7 @@ public class TopiaryBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES))));
 
     public static final Block KAURI_SAPLING = (registerBlockWithoutBlockItem("kauri_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING))));
+            new SaplingBlock(new KauriSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING))));
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
