@@ -10,16 +10,21 @@ import net.sporent.topiary.Topiary;
 
 public class TopiaryTags {
 
-    public static final TagKey<Block> KAURI_LOGS = TagKey.of(RegistryKeys.BLOCK, new Identifier("topiary", "kauri_logs"));
-    public static final TagKey<Item> KAURI_LOGS_BLOCKITEM = TagKey.of(RegistryKeys.ITEM, new Identifier("topiary", "kauri_logs"));
-
     public static class Blocks {
 
+        private static TagKey<Block> KAURI_LOGS = createTag("kauri_logs");
 
-
+        private static TagKey<Block> createTag(String name) {
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier(Topiary.MOD_ID, name));
+        }
     }
 
     public static class Items {
 
+        private static TagKey<Item> KAURI_LOGS_BLOCKITEM = createTag("kauri_logs");
+
+        private static TagKey<Item> createTag(String name) {
+            return TagKey.of(RegistryKeys.ITEM, new Identifier(Topiary.MOD_ID, name));
+        }
     }
 }
