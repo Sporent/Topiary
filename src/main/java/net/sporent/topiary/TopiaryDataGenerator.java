@@ -4,10 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
-import net.sporent.topiary.data.TopiaryLootTableGenerator;
-import net.sporent.topiary.data.TopiaryModelProvider;
-import net.sporent.topiary.data.TopiaryRecipeGenerator;
-import net.sporent.topiary.data.TopiaryWorldGenerator;
+import net.sporent.topiary.data.*;
 import net.sporent.topiary.world.TopiaryConfiguredFeatures;
 import net.sporent.topiary.world.TopiaryPlacedFeatures;
 
@@ -20,6 +17,8 @@ public class TopiaryDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(TopiaryModelProvider::new);
 		pack.addProvider(TopiaryRecipeGenerator::new);
 		pack.addProvider(TopiaryWorldGenerator::new);
+		pack.addProvider(TopiaryBlockTagProvider::new);
+		pack.addProvider(TopiaryItemTagProvider::new);
 	}
 
 

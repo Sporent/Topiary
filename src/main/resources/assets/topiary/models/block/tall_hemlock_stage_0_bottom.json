@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "topiary:block/tall_hemlock_stage_0_bottom"
+  }
+}

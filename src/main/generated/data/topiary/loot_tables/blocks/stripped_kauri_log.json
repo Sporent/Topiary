@@ -11,11 +11,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "topiary:kauri_planks"
+          "name": "topiary:stripped_kauri_log"
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "topiary:blocks/kauri_planks"
+  ]
 }

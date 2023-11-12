@@ -1,1 +1,5 @@
-// 1.20.1	2023-07-26T20:32:09.1707476	Topiary/Block Loot Tables
+// 1.20.1	2023-11-12T14:39:38.2136417	Topiary/Block Loot Tables
+e66ed6e516668f52d6e41b756aa3485c94128933 data\topiary\loot_tables\blocks\stripped_kauri_wood.json
+223eed11c9d148658d8a2b19ef38ce5fbe3d412c data\topiary\loot_tables\blocks\kauri_log.json
+6196614ea93449065a749fadf06db9d839ae5cd7 data\topiary\loot_tables\blocks\kauri_wood.json
+de83b02b66e798a7149a7e7311c08899d524fa66 data\topiary\loot_tables\blocks\stripped_kauri_log.json

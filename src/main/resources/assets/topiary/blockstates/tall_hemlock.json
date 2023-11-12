@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "half=lower,stage=0": {"model": "topiary:block/tall_hemlock_stage_0_bottom"},
+    "half=upper,stage=0": {"model": "topiary:block/tall_hemlock_stage_0_top"},
+    "half=lower,stage=1": {"model": "topiary:block/tall_hemlock_stage_1_bottom"},
+    "half=upper,stage=1": {"model": "topiary:block/tall_hemlock_stage_1_top"}
+  }
+}

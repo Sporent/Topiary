@@ -26,6 +26,9 @@ public class TopiaryItemGroups {
 
                         entries.add(TopiaryBlocks.KAURI_LEAVES);
                         entries.add(TopiaryBlocks.KAURI_SAPLING);
+
+                        entries.add(TopiaryBlocks.HEMLOCK);
+                        entries.add(TopiaryBlocks.TALL_HEMLOCK);
                     }).build());
 
     public static void register() {

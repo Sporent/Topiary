@@ -7,3 +7,8 @@ Textures:
     - bluebell
     - chanterelle
     - morel
+
+Functionality:
+    - hemlock has 3 stages:
+    1 block tall and two 2 block tall models with different textures representing an increasing amount of flowers on the plant
+    - world and feature gen for plants

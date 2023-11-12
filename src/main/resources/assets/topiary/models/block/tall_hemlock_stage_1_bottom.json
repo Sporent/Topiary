@@ -1,0 +1,6 @@
+{
+  "parent": "topiary:block/extended_cross",
+  "textures": {
+    "cross": "topiary:block/tall_hemlock_stage_1_bottom"
+  }
+}

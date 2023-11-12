@@ -20,11 +20,12 @@ public class TopiaryModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(TopiaryBlocks.KAURI_LOG).log(TopiaryBlocks.KAURI_LOG).wood(TopiaryBlocks.KAURI_WOOD);
         blockStateModelGenerator.registerLog(TopiaryBlocks.STRIPPED_KAURI_LOG).log(TopiaryBlocks.STRIPPED_KAURI_LOG).wood(TopiaryBlocks.STRIPPED_KAURI_WOOD);
 
-        blockStateModelGenerator.registerCubeAllModelTexturePool(TopiaryBlocks.KAURI_PLANKS);
-        blockStateModelGenerator.registerCubeAllModelTexturePool(TopiaryBlocks.KAURI_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(TopiaryBlocks.KAURI_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(TopiaryBlocks.KAURI_LEAVES);
 
         blockStateModelGenerator.registerTintableCrossBlockState(TopiaryBlocks.KAURI_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
+        blockStateModelGenerator.registerTintableCrossBlockState(TopiaryBlocks.HEMLOCK, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

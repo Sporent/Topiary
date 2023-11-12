@@ -10,5 +10,7 @@ public class TopiaryClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.KAURI_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.KAURI_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.HEMLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.TALL_HEMLOCK, RenderLayer.getCutout());
     }
 }

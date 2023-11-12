@@ -32,9 +32,9 @@ public class TopiaryBlocks {
             new SaplingBlock(new KauriSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING))));
 
     public static final Block HEMLOCK = (registerBlock("hemlock",
-            new FernBlock(FabricBlockSettings.copyOf(Blocks.GRASS).mapColor(MapColor.OFF_WHITE))));
+            new HemlockBlock()));
     public static final Block TALL_HEMLOCK = (registerBlock("tall_hemlock",
-            new TallPlantBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).mapColor(MapColor.OFF_WHITE))));
+            new TallHemlockBlock(FabricBlockSettings.copyOf(Blocks.LARGE_FERN))));
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

@@ -7,5 +7,8 @@
   "block.topiary.kauri_leaves": "Kauri Leaves",
   "block.topiary.kauri_sapling": "Kauri Sapling",
 
+  "block.topiary.hemlock": "Hemlock",
+  "block.topiary.tall_hemlock": "Tall Hemlock",
+
   "itemgroup.topiary": "Topiary"
 }
