@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "topiary:kauri_log",
+    "topiary:stripped_kauri_log",
+    "topiary:kauri_wood",
+    "topiary:stripped_kauri_wood"
+  ]
+}

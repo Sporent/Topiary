@@ -61,7 +61,7 @@ public class TallHemlockBlock extends TallPlantBlock implements Fertilizable {
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state) {
 
         int stage = this.getStage(state) + 1;
-        DoubleBlockHalf doubleBlockHalf = (DoubleBlockHalf)state.get(HALF);
+        DoubleBlockHalf doubleBlockHalf = state.get(HALF);
 
         if (this.getStage(state) + 1 > 1) {
             stage = 3;
