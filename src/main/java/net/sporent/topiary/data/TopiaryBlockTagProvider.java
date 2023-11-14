@@ -23,9 +23,6 @@ public class TopiaryBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(TopiaryBlocks.STRIPPED_KAURI_WOOD);
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
-                .add(TopiaryBlocks.KAURI_LOG)
-                .add(TopiaryBlocks.STRIPPED_KAURI_LOG)
-                .add(TopiaryBlocks.KAURI_WOOD)
-                .add(TopiaryBlocks.STRIPPED_KAURI_WOOD);
+                .addTag(TopiaryTags.Blocks.KAURI_LOGS);
     }
 }
