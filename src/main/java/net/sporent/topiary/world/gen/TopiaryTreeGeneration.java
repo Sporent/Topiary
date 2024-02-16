@@ -8,7 +8,7 @@ import net.sporent.topiary.world.TopiaryPlacedFeatures;
 
 public class TopiaryTreeGeneration {
     public static void generateTrees() {
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST, BiomeKeys.PLAINS),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, TopiaryPlacedFeatures.KAURI_PLACED_KEY);
     }
 }
