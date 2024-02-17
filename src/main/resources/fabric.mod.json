@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.sporent.topiary.TopiaryDataGenerator"
+		],
+		"terrablender": [
+			"net.sporent.topiary.world.biome.TopiaryTerrablenderAPI"
 		]
 	},
 	"mixins": [
