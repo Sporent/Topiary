@@ -15,13 +15,13 @@ import java.util.List;
 
 public class TopiaryPlacedFeatures {
     public static final RegistryKey<PlacedFeature> KAURI_PLACED_KEY = registerKey("kauri_placed");
+    public static final RegistryKey<PlacedFeature> TEMPERATE_RAINFOREST_FLOWERS_PLACED_KEY = registerKey("temperate_rainforest_flowers_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, KAURI_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(TopiaryConfiguredFeatures.KAURI_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), TopiaryBlocks.KAURI_SAPLING));
-
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

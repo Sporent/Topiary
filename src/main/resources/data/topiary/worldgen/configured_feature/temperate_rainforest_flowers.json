@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "seed": 7457,
+            "noise": {
+              "firstOctave": -7,
+              "amplitudes": [
+                1,
+                1
+              ]
+            },
+            "scale": 1,
+            "threshold": 1,
+            "high_chance": 0,
+            "default_state": {
+              "Name": "topiary:tall_hemlock",
+              "Properties": {
+                "half": "lower",
+                "stage": "0"
+              }
+            },
+            "low_states": [
+              {
+                "Name": "topiary:hemlock"
+              }
+            ],
+            "high_states": [
+              {
+                "Name": "topiary:tall_hemlock",
+                "Properties": {
+                  "half": "lower",
+                  "stage": "1"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}
