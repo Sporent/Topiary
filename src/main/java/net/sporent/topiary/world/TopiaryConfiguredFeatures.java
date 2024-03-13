@@ -20,7 +20,6 @@ import net.sporent.topiary.util.TopiaryTags;
 public class TopiaryConfiguredFeatures{
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> KAURI_KEY = registerKey("kauri");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> TEMPERATE_RAINFOREST_FLOWERS = registerKey("temperate_rainforest_flowers");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, KAURI_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -29,8 +28,6 @@ public class TopiaryConfiguredFeatures{
                 BlockStateProvider.of(TopiaryBlocks.KAURI_LEAVES),
                 new MegaPineFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), ConstantIntProvider.create(5)),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
-
-        //register(context, TEMPERATE_RAINFOREST_FLOWERS, Feature.FLOWER, new RandomPatchFeatureConfig(1, 1, 1, ));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -12,15 +12,15 @@
             "type": "minecraft:noise_threshold_provider",
             "seed": 7457,
             "noise": {
-              "firstOctave": -7,
+              "firstOctave": -6,
               "amplitudes": [
-                1,
-                1
+                1.4,
+                4
               ]
             },
             "scale": 1,
-            "threshold": 1,
-            "high_chance": 0,
+            "threshold": 0,
+            "high_chance": 0.333333333334,
             "default_state": {
               "Name": "topiary:tall_hemlock",
               "Properties": {

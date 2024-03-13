@@ -15,7 +15,7 @@ import java.util.List;
 
 public class TopiaryPlacedFeatures {
     public static final RegistryKey<PlacedFeature> KAURI_PLACED_KEY = registerKey("kauri_placed");
-    public static final RegistryKey<PlacedFeature> TEMPERATE_RAINFOREST_FLOWERS_PLACED_KEY = registerKey("temperate_rainforest_flowers_placed");
+    //public static final RegistryKey<PlacedFeature> TEMPERATE_RAINFOREST_FLOWERS_PLACED_KEY = registerKey("temperate_rainforest_flowers_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
