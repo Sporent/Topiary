@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "topiary:block/moss_carpet_with_sporophytes",
+        "weight": 1
+      },
+      {
+        "model": "minecraft:block/moss_carpet",
+        "weight": 7
+      }
+    ]
+  }
+}

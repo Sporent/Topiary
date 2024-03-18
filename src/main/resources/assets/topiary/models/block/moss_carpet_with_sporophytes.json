@@ -1,0 +1,7 @@
+{
+  "parent": "topiary:block/cross_with_base",
+  "textures": {
+    "base": "minecraft:block/moss_block",
+    "cross": "topiary:block/sporophytes"
+  }
+}

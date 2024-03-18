@@ -2,18 +2,16 @@
   "feature": "topiary:temperate_rainforest_flowers",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 20
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 10,
+      "noise_factor": 0
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
-    },
-    {
-      "type": "minecraft:biome"
+      "heightmap": "OCEAN_FLOOR"
     }
   ]
 }
