@@ -1,7 +1,6 @@
 {
   "type": "minecraft:flower",
   "config": {
-    "tries": 64,
     "xz_spread": 5,
     "y_spread": 3,
     "feature": {
@@ -18,7 +17,7 @@
                 4
               ]
             },
-            "scale": 4,
+            "scale": 1,
             "threshold": 0,
             "high_chance": 0.333333333334,
             "default_state": {

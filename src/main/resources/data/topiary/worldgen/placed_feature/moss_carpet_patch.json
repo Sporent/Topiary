@@ -1,11 +1,13 @@
 {
-  "feature": "topiary:simple_moss_carpet",
+  "feature": "topiary:patch_moss",
   "placement": [
     {
-      "type": "minecraft:noise_threshold_count",
-      "noise_level": 0,
-      "below_noise": 7,
-      "above_noise": 1
+      "type": "minecraft:rarity_filter",
+      "chance": 7
+    },
+    {
+      "type": "minecraft:count",
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -15,11 +17,9 @@
       "heightmap": "OCEAN_FLOOR"
     },
     {
-      "type": "minecraft:surface_relative_threshold_filter",
-      "heightmap": "WORLD_SURFACE",
-      "min_inclusive": 0,
-      "max_inclusive": 0
+      "type": "minecraft:biome"
     }
   ]
 }
+
 

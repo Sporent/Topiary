@@ -4,10 +4,10 @@
   "has_precipitation": true,
   "effects": {
     "sky_color": 7907327,
-    "fog_color": 12638463,
+    "fog_color": 14875065,
     "water_color": 2969514,
     "water_fog_color": 721963,
-    "grass_color": 5745978,
+    "grass_color": 6663221,
     "foliage_color": 4032036
   },
   "spawners": {
@@ -172,7 +172,7 @@
     [
       "topiary:temperate_rainforest_flowers",
       "topiary:cherry_checked_rare",
-      "topiary:temperate_rainforest_oak",
+      "topiary:temperate_rainforest_trees",
       "topiary:moss_carpet_patch"
     ],
     [
