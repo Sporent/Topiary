@@ -24,5 +24,8 @@ public class TopiaryBlockTagProvider extends FabricTagProvider.BlockTagProvider 
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .addTag(TopiaryTags.Blocks.KAURI_LOGS);
+
+        getOrCreateTagBuilder(BlockTags.SAPLINGS)
+                .add(TopiaryBlocks.KAURI_SAPLING);
     }
 }

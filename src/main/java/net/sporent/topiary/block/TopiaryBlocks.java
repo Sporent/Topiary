@@ -24,12 +24,25 @@ public class TopiaryBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
     public static final Block KAURI_PLANKS = (registerBlock("kauri_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_STAIRS = (registerBlock("kauri_stairs",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_SLAB = (registerBlock("kauri_slab",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_FENCE = (registerBlock("kauri_fence",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_SIGN = (registerBlock("kauri_sign",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
+    public static final Block KAURI_HANGING_SIGN = (registerBlock("kauri_hanging_sign",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.OFF_WHITE).strength(4.0f).requiresTool())));
 
     public static final Block KAURI_LEAVES = (registerBlock("kauri_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES))));
-
     public static final Block KAURI_SAPLING = (registerBlockWithoutBlockItem("kauri_sapling",
             new SaplingBlock(new KauriSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING))));
+    public static final Block POTTED_KAURI_SAPLING = (registerBlockWithoutBlockItem("potted_kauri_sapling",
+            new FlowerPotBlock(TopiaryBlocks.KAURI_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING))));
+
+
 
     public static final Block HEMLOCK = (registerBlock("hemlock",
             new HemlockBlock()));

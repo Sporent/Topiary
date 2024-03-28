@@ -15,7 +15,10 @@ public class TopiaryLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(TopiaryBlocks.KAURI_WOOD);
         addDrop(TopiaryBlocks.STRIPPED_KAURI_LOG);
         addDrop(TopiaryBlocks.STRIPPED_KAURI_WOOD);
+        addPottedPlantDrops(TopiaryBlocks.POTTED_KAURI_SAPLING);
         leavesDrops(TopiaryBlocks.KAURI_LEAVES, TopiaryBlocks.KAURI_SAPLING);
         drops(TopiaryBlocks.KAURI_SAPLING);
+        dropsWithShears(TopiaryBlocks.HEMLOCK);
+        dropsWithShears(TopiaryBlocks.TALL_HEMLOCK);
     }
 }

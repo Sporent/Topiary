@@ -1,3 +1,6 @@
 {
-  "parent": "topiary:block/hemlock"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "topiary:block/hemlock"
+  }
 }

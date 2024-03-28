@@ -1,3 +1,6 @@
 {
-  "parent": "topiary:block/tall_hemlock_stage_0_top"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "topiary:block/tall_hemlock_stage_0_top"
+  }
 }
