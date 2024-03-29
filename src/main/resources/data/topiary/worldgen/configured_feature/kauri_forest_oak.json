@@ -18,7 +18,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_log",
+        "Name": "topiary:kauri_log",
         "Properties": {
           "axis": "y"
         }
@@ -27,7 +27,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
+        "Name": "topiary:kauri_leaves",
         "Properties": {
           "distance": "3",
           "persistent": "false",
@@ -37,7 +37,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:straight_trunk_placer",
-      "base_height": 8,
+      "base_height": 11,
       "height_rand_a": 3,
       "height_rand_b": 2
     },
@@ -50,6 +50,10 @@
     "decorators": [
       {
         "type": "minecraft:trunk_vine"
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.007
       }
     ]
   }

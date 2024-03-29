@@ -2,6 +2,6 @@
   "type": "minecraft:random_selector",
   "config": {
     "features": [],
-    "default": "topiary:temperate_rainforest_oak_checked"
+    "default": "topiary:kauri_forest_oak_checked"
   }
 }

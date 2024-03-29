@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.BlockTags;
 import net.sporent.topiary.block.TopiaryBlocks;
 import net.sporent.topiary.util.TopiaryTags;
 
@@ -27,5 +28,32 @@ public class TopiaryBlockTagProvider extends FabricTagProvider.BlockTagProvider 
 
         getOrCreateTagBuilder(BlockTags.SAPLINGS)
                 .add(TopiaryBlocks.KAURI_SAPLING);
+
+        getOrCreateTagBuilder(BlockTags.PLANKS)
+                .add(TopiaryBlocks.KAURI_PLANKS);
+        
+        getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
+                .add(TopiaryBlocks.KAURI_BUTTON);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
+                .add(TopiaryBlocks.KAURI_DOOR);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(TopiaryBlocks.KAURI_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(TopiaryBlocks.KAURI_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
+                .add(TopiaryBlocks.KAURI_SLAB);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
+                .add(TopiaryBlocks.KAURI_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(TopiaryBlocks.KAURI_PRESSURE_PLATE);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS)
+                .add(TopiaryBlocks.KAURI_TRAPDOOR);
     }
 }

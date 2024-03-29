@@ -1,4 +1,13 @@
-// 1.20.1	2024-03-28T16:41:51.8611721	Topiary/Tags for minecraft:block
+// 1.20.1	2024-03-29T21:07:49.1651345	Topiary/Tags for minecraft:block
+d9e00729da9a4160a66daf1179ab201e77cc9716 data\minecraft\tags\blocks\fence_gates.json
 8909a9f651e5d52d4eff009e83e446d774bf7f13 data\minecraft\tags\blocks\saplings.json
 fc990d40fc5c028e4652406b961bcd69454b4735 data\topiary\tags\blocks\kauri_logs.json
+54ccff2164731933f0203e28fc0881ee60e99048 data\minecraft\tags\blocks\wooden_stairs.json
+fd182dd3cc1233e9745cd86b9b00ba294c10f285 data\minecraft\tags\blocks\wooden_pressure_plates.json
+7f3919df58c8cd5aa54fd0de89d4ac28eba7e2c2 data\minecraft\tags\blocks\wooden_trapdoors.json
+e512f43eea1fe337dfd98ade3e687f2fc4764e8f data\minecraft\tags\blocks\wooden_fences.json
+fba56afa530d385a85cbc4c5d869eb6486d89e7b data\minecraft\tags\blocks\planks.json
 34aff976ffbf53fb3b89752f06d4b15f0a9917ea data\minecraft\tags\blocks\logs_that_burn.json
+870153379c80772055f62558ff07d66ad7a1e385 data\minecraft\tags\blocks\wooden_doors.json
+c52fb6d70bcc07753e0ded116d4fd08bfade2905 data\minecraft\tags\blocks\wooden_slabs.json
+fe77fc4f537c50824f46dc765adb7cc77fa32f7f data\minecraft\tags\blocks\wooden_buttons.json

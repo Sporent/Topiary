@@ -26,7 +26,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "topiary:kauri_sapling"
+          "name": "minecraft:air"
         }
       ],
       "rolls": 1.0

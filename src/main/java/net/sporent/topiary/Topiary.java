@@ -2,6 +2,7 @@ package net.sporent.topiary;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sporent.topiary.block.TopiaryBlockSets;
 import net.sporent.topiary.block.TopiaryBlocks;
 import net.sporent.topiary.block.TopiaryFlammableBlockRegistry;
 import net.sporent.topiary.block.TopiaryStrippableBlockRegistry;

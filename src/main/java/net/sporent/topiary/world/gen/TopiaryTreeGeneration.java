@@ -10,7 +10,7 @@ import net.sporent.topiary.world.biome.TopiaryBiomes;
 
 public class TopiaryTreeGeneration {
     public static void generateTrees() {
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(TopiaryBiomes.KAURI_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, TopiaryPlacedFeatures.KAURI_PLACED_KEY);
     }
 }

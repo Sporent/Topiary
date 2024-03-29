@@ -3,9 +3,29 @@
   "block.topiary.kauri_wood": "Kauri Wood",
   "block.topiary.stripped_kauri_log": "Stripped Kauri Log",
   "block.topiary.stripped_kauri_wood": "Stripped Kauri Wood",
+
   "block.topiary.kauri_planks": "Kauri Planks",
+
+  "block.topiary.kauri_fence": "Kauri Fence",
+  "block.topiary.kauri_slab" : "Kauri Slab",
+  "block.topiary.kauri_stairs": "Kauri Stairs",
+
+  "block.topiary.kauri_button": "Kauri Button",
+  "block.topiary.kauri_pressure_plate": "Pressure Plate",
+
+  "block.topiary.kauri_door": "Kauri Door",
+  "block.topiary.kauri_trapdoor": "Kauri Trapdoor",
+
+  "block.topiary.kauri_sign": "Kauri Sign",
+  "block.topiary.kauri_hanging_sign": "Kauri Hanging Sign",
+
   "block.topiary.kauri_leaves": "Kauri Leaves",
+
   "block.topiary.kauri_sapling": "Kauri Sapling",
+
+
+
+
 
   "block.topiary.hemlock": "Hemlock",
   "block.topiary.tall_hemlock": "Tall Hemlock",

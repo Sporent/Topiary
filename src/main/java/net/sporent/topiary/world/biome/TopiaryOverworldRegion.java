@@ -20,7 +20,7 @@ public class TopiaryOverworldRegion extends Region {
     @Override
     public void addBiomes(Registry<Biome> registry, Consumer<Pair<MultiNoiseUtil.NoiseHypercube, RegistryKey<Biome>>> mapper) {
         this.addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
-            modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.FOREST, TopiaryBiomes.TEMPERATE_RAINFOREST);
+            modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.FOREST, TopiaryBiomes.KAURI_FOREST);
         });
     }
 }

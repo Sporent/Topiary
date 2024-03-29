@@ -6,13 +6,10 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
-import net.minecraft.item.Item;
-import net.minecraft.state.property.IntProperty;
-import net.minecraft.util.Identifier;
-import net.sporent.topiary.Topiary;
-import net.sporent.topiary.block.HemlockBlock;
-import net.sporent.topiary.block.TallHemlockBlock;
+import net.minecraft.data.family.BlockFamily;
+import net.sporent.topiary.block.TopiaryBlockFamilies;
 import net.sporent.topiary.block.TopiaryBlocks;
+import net.sporent.topiary.block.TopiaryWoodSets;
 import net.sporent.topiary.item.TopiaryItems;
 
 public class TopiaryModelProvider extends FabricModelProvider {
@@ -25,15 +22,18 @@ public class TopiaryModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(TopiaryBlocks.KAURI_LOG).log(TopiaryBlocks.KAURI_LOG).wood(TopiaryBlocks.KAURI_WOOD);
         blockStateModelGenerator.registerLog(TopiaryBlocks.STRIPPED_KAURI_LOG).log(TopiaryBlocks.STRIPPED_KAURI_LOG).wood(TopiaryBlocks.STRIPPED_KAURI_WOOD);
 
-        blockStateModelGenerator.registerSimpleCubeAll(TopiaryBlocks.KAURI_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool kauriPool = blockStateModelGenerator.registerCubeAllModelTexturePool(TopiaryBlocks.KAURI_PLANKS);
+
+        kauriPool.family(TopiaryBlockFamilies.KAURI);
+
+        blockStateModelGenerator.registerHangingSign(TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN);
+
         blockStateModelGenerator.registerSingleton(TopiaryBlocks.KAURI_LEAVES, TexturedModel.LEAVES);
 
         blockStateModelGenerator.registerFlowerPotPlant(TopiaryBlocks.KAURI_SAPLING, TopiaryBlocks.POTTED_KAURI_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerItemModel(TopiaryBlocks.KAURI_SAPLING);
 
         blockStateModelGenerator.registerTintableCrossBlockState(TopiaryBlocks.HEMLOCK, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerItemModel(TopiaryBlocks.HEMLOCK);
-
     }
 
     @Override

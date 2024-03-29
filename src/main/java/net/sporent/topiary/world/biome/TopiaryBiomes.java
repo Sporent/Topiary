@@ -7,6 +7,6 @@ import net.minecraft.world.biome.Biome;
 import net.sporent.topiary.Topiary;
 
 public class TopiaryBiomes {
-    public static final RegistryKey<Biome> TEMPERATE_RAINFOREST = RegistryKey.of(RegistryKeys.BIOME,
-            new Identifier(Topiary.MOD_ID, "temperate_rainforest"));
+    public static final RegistryKey<Biome> KAURI_FOREST = RegistryKey.of(RegistryKeys.BIOME,
+            new Identifier(Topiary.MOD_ID, "kauri_forest"));
 }

@@ -1,6 +1,16 @@
-// 1.20.1	2024-03-28T16:41:51.8632263	Topiary/Block Loot Tables
-e66ed6e516668f52d6e41b756aa3485c94128933 data\topiary\loot_tables\blocks\stripped_kauri_wood.json
+// 1.20.1	2024-03-29T21:07:49.1691321	Topiary/Block Loot Tables
+1d087f36cebaf49cc882cd3bc5cf67f7ab0ace6f data\topiary\loot_tables\blocks\kauri_pressure_plate.json
+577630e3921c5b7b52f9c61ce9dac6891b04a6de data\topiary\loot_tables\blocks\kauri_fence_gate.json
+e3966c63de4bbeae7d139faf8101c347a06962c8 data\topiary\loot_tables\blocks\kauri_door.json
+334b3276d53a0bb161d687874e8c3843b22034f7 data\topiary\loot_tables\blocks\kauri_stairs.json
+6b733d78641ecebd5bacc0a53d9cb6e6bde3b16a data\topiary\loot_tables\blocks\kauri_planks.json
+58dbc95b28c205946651b20306cebc545bd3b1e8 data\topiary\loot_tables\blocks\kauri_button.json
+029479fc67e0651df3556a4d2b6387a45900cc0c data\topiary\loot_tables\blocks\kauri_slab.json
+46b6d704ca1aa71257ba5ffd562ddd553924d9b5 data\topiary\loot_tables\blocks\kauri_sign.json
+ce8ecf698e7ed821aeff7d65b5b5618406c862c2 data\topiary\loot_tables\blocks\kauri_trapdoor.json
+45c695585231bf4b1c8b4b791c4bf95a11f3c233 data\topiary\loot_tables\blocks\kauri_fence.json
 223eed11c9d148658d8a2b19ef38ce5fbe3d412c data\topiary\loot_tables\blocks\kauri_log.json
-21aeaa94c045ee82e56907ae9b1ae1c9c97e58f0 data\topiary\loot_tables\blocks\potted_kauri_sapling.json
+0788bf36c3127d7e9676d45d0e4a80f7d8b0a2ba data\topiary\loot_tables\blocks\potted_kauri_sapling.json
+ee9e48eca5dbd38f092e281ae20c14b19d6d4317 data\topiary\loot_tables\blocks\kauri_hanging_sign.json
 6196614ea93449065a749fadf06db9d839ae5cd7 data\topiary\loot_tables\blocks\kauri_wood.json
 de83b02b66e798a7149a7e7311c08899d524fa66 data\topiary\loot_tables\blocks\stripped_kauri_log.json
