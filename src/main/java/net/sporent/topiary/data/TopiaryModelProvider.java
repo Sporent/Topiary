@@ -4,12 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
-import net.minecraft.data.family.BlockFamily;
 import net.sporent.topiary.block.TopiaryBlockFamilies;
 import net.sporent.topiary.block.TopiaryBlocks;
-import net.sporent.topiary.block.TopiaryWoodSets;
 import net.sporent.topiary.item.TopiaryItems;
 
 public class TopiaryModelProvider extends FabricModelProvider {
@@ -26,7 +23,7 @@ public class TopiaryModelProvider extends FabricModelProvider {
 
         kauriPool.family(TopiaryBlockFamilies.KAURI);
 
-        blockStateModelGenerator.registerHangingSign(TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN);
+        //blockStateModelGenerator.registerHangingSign(TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN);
 
         blockStateModelGenerator.registerSingleton(TopiaryBlocks.KAURI_LEAVES, TexturedModel.LEAVES);
 

@@ -55,5 +55,10 @@ public class TopiaryItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.WOODEN_TRAPDOORS)
                 .add(TopiaryBlocks.KAURI_TRAPDOOR.asItem());
 
+        getOrCreateTagBuilder(ItemTags.SIGNS)
+                .add(TopiaryBlocks.KAURI_SIGN.asItem());
+
+        getOrCreateTagBuilder(ItemTags.HANGING_SIGNS)
+                .add(TopiaryBlocks.KAURI_HANGING_SIGN.asItem());
     }
 }

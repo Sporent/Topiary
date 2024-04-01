@@ -14,13 +14,16 @@ import net.sporent.topiary.block.TopiaryBlocks;
 
 public class TopiaryItems{
 
-    public static final Item KAURI_SAPLING = registerItem("kauri_sapling",
+   public static final Item KAURI_SAPLING = registerItem("kauri_sapling",
             new BlockItem(TopiaryBlocks.KAURI_SAPLING, new FabricItemSettings()));
 
-    //public static final Item KAURI_SIGN = registerItem("kauri_sign",
-    //        new SignItem(new FabricItemSettings().maxCount(16), TopiaryBlocks.KAURI_SIGN, TopiaryBlocks.KAURI_WALL_SIGN));
-    //public static final Item KAURI_HANGING_SIGN = registerItem("kauri_hanging_sign",
-    //        new HangingSignItem(TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN, new FabricItemSettings().maxCount(16)));
+    public static final Item KAURI_SIGN = registerItem("kauri_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), TopiaryBlocks.KAURI_SIGN, TopiaryBlocks.KAURI_WALL_SIGN));
+    public static final Item KAURI_HANGING_SIGN = registerItem("kauri_hanging_sign",
+            new HangingSignItem(TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN, new FabricItemSettings().maxCount(16)));
+
+    public static final Item BEANS = registerItem("beans",
+            new Item(new FabricItemSettings().food(TopiaryFoodComponents.BEANS).maxCount(64)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Topiary.MOD_ID, name), item);

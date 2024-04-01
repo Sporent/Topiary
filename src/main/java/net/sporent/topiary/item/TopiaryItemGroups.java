@@ -38,12 +38,16 @@ public class TopiaryItemGroups {
                         entries.add(TopiaryBlocks.KAURI_DOOR);
                         entries.add(TopiaryBlocks.KAURI_TRAPDOOR);
 
-                        //entries.add(TopiaryItems.KAURI_SIGN);
-                        //entries.add(TopiaryItems.KAURI_HANGING_SIGN);
+                        entries.add(TopiaryItems.KAURI_SIGN);
+                        entries.add(TopiaryItems.KAURI_HANGING_SIGN);
 
                         entries.add(TopiaryBlocks.KAURI_LEAVES);
 
-                        entries.add(TopiaryItems.KAURI_SAPLING);
+                        entries.add(TopiaryBlocks.KAURI_SAPLING);
+
+
+                        entries.add(TopiaryItems.BEANS);
+
 
                         entries.add(TopiaryBlocks.HEMLOCK);
                         entries.add(TopiaryBlocks.TALL_HEMLOCK);
@@ -52,6 +56,4 @@ public class TopiaryItemGroups {
     public static void register() {
         Topiary.LOGGER.info("Registering item groups for "+Topiary.MOD_ID);
     }
-
-
 }

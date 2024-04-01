@@ -7,7 +7,10 @@ import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
 import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.SignBlockEntityRenderer;
+import net.minecraft.client.render.entity.model.EntityModelLoader;
 import net.sporent.topiary.block.TopiaryBlocks;
+import net.sporent.topiary.block.TopiaryWoodSets;
 import net.sporent.topiary.world.biome.TopiaryBiomes;
 
 public class TopiaryClient implements ClientModInitializer {
@@ -18,6 +21,8 @@ public class TopiaryClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.POTTED_KAURI_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.HEMLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.TALL_HEMLOCK, RenderLayer.getCutout());
+
+
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> pos != null && world != null
                 ? BiomeColors.getFoliageColor(world, pos)

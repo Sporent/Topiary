@@ -7,6 +7,7 @@
   "block.topiary.kauri_planks": "Kauri Planks",
 
   "block.topiary.kauri_fence": "Kauri Fence",
+  "block.topiary.kauri_fence_gate": "Kauri Fence Gate",
   "block.topiary.kauri_slab" : "Kauri Slab",
   "block.topiary.kauri_stairs": "Kauri Stairs",
 
@@ -24,7 +25,7 @@
   "block.topiary.kauri_sapling": "Kauri Sapling",
 
 
-
+  "item.topiary.beans": "Beans",
 
 
   "block.topiary.hemlock": "Hemlock",

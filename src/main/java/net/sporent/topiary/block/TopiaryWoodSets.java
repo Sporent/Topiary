@@ -1,14 +1,17 @@
 package net.sporent.topiary.block;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.type.WoodTypeBuilder;
 import net.minecraft.block.WoodType;
+import net.minecraft.util.Identifier;
+import net.sporent.topiary.Topiary;
 
 public class TopiaryWoodSets {
-    public static final WoodType KAURI = new WoodType("kauri", TopiaryBlockSets.KAURI);
-    public static final WoodType VERAWOOD = new WoodType("verawood", TopiaryBlockSets.VERAWOOD);
-    public static final WoodType WILLOW = new WoodType("willow", TopiaryBlockSets.WILLOW);
-    public static final WoodType COVE = new WoodType("cove", TopiaryBlockSets.COVE);
-    public static final WoodType OCEANIC = new WoodType("oceanic", TopiaryBlockSets.OCEANIC);
-    public static final WoodType GRUM = new WoodType("grum", TopiaryBlockSets.GRUM);
-    public static final WoodType PURPLEHEART = new WoodType("purpleheart", TopiaryBlockSets.PURPLEHEART);
+    public static final WoodType KAURI = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "kauri"), TopiaryBlockSets.KAURI);
+    public static final WoodType VERAWOOD = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "verawood"), TopiaryBlockSets.VERAWOOD);
+    public static final WoodType WILLOW = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "willow"), TopiaryBlockSets.WILLOW);
+    public static final WoodType COVE = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "cove"), TopiaryBlockSets.COVE);
+    public static final WoodType OCEANIC = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "oceanic"), TopiaryBlockSets.OCEANIC);
+    public static final WoodType GRUM = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "grum"), TopiaryBlockSets.GRUM);
+    public static final WoodType PURPLEHEART = new WoodTypeBuilder().register(new Identifier(Topiary.MOD_ID, "purpleheart"), TopiaryBlockSets.PURPLEHEART);
 }
 

@@ -1,8 +1,6 @@
 package net.sporent.topiary.block;
 
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.sporent.topiary.util.TopiaryTags;
 
 public class TopiaryStrippableBlockRegistry {
     public static void registerStrippableBlocks() {

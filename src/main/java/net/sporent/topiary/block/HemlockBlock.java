@@ -1,15 +1,17 @@
 package net.sporent.topiary.block;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.FernBlock;
+import net.minecraft.block.TallPlantBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
 public class HemlockBlock extends FernBlock {
 
-    public HemlockBlock() {
-        super(FabricBlockSettings.copyOf(Blocks.FERN));
+    public HemlockBlock(Settings settings) {
+        super(settings);
     }
 
     @Override
