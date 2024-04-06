@@ -14,6 +14,7 @@ public class TopiaryModelProvider extends FabricModelProvider {
         super(output);
     }
 
+    //generate all recipe blockstate and model json files for topiary blocks
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerLog(TopiaryBlocks.KAURI_LOG).log(TopiaryBlocks.KAURI_LOG).wood(TopiaryBlocks.KAURI_WOOD);
@@ -23,7 +24,7 @@ public class TopiaryModelProvider extends FabricModelProvider {
 
         kauriPool.family(TopiaryBlockFamilies.KAURI);
 
-        //blockStateModelGenerator.registerHangingSign(TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN);
+        blockStateModelGenerator.registerHangingSign(TopiaryBlocks.STRIPPED_KAURI_LOG, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.KAURI_WALL_HANGING_SIGN);
 
         blockStateModelGenerator.registerSingleton(TopiaryBlocks.KAURI_LEAVES, TexturedModel.LEAVES);
 
@@ -33,6 +34,7 @@ public class TopiaryModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerItemModel(TopiaryBlocks.HEMLOCK);
     }
 
+    //generate all model json files for topiary items
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
     }
