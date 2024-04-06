@@ -45,8 +45,8 @@ public class TopiaryItemGroups {
 
                         entries.add(TopiaryBlocks.KAURI_SAPLING);
 
-
-                        entries.add(TopiaryItems.BEANS);
+                        //April fools easter egg lol
+                        //entries.add(TopiaryItems.BEANS);
 
 
                         entries.add(TopiaryBlocks.HEMLOCK);
