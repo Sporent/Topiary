@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "kauri",
+  "ingredients": [
+    {
+      "item": "topiary:kauri_planks"
+    }
+  ],
+  "result": {
+    "item": "topiary:kauri_button"
+  }
+}
