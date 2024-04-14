@@ -1,2 +1,4 @@
 # Topiary
-HELLO. ONE DAY I WILL GET THE MOTIVATION TO MAKE A README
+development is paused until i finish my final exams ^-^
+
+i will be back working on it in summer !! 🙀
