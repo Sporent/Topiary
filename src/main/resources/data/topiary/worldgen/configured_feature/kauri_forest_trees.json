@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:random_selector",
-  "config": {
-    "features": [],
-    "default": "topiary:kauri_forest_oak_checked"
-  }
-}

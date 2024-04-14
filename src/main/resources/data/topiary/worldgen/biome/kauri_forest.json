@@ -165,15 +165,14 @@
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:patch_large_fern",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane"
-    ],
-    [
+      "minecraft:patch_sugar_cane",
+
       "topiary:kauri_forest_flowers",
-      "topiary:cherry_checked_rare",
-      "topiary:kauri_forest_trees",
-      "topiary:moss_carpet_patch"
+      "topiary:kauri_forest_trees"
     ],
     [
       "minecraft:freeze_top_layer"

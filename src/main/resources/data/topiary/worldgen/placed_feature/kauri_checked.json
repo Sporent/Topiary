@@ -1,5 +1,5 @@
 {
-  "feature": "topiary:kauri_forest_oak",
+  "feature": "topiary:kauri",
   "placement": [
     {
       "type": "minecraft:block_predicate_filter",
