@@ -60,5 +60,11 @@ public class TopiaryItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.HANGING_SIGNS)
                 .add(TopiaryBlocks.KAURI_HANGING_SIGN.asItem());
+
+        getOrCreateTagBuilder(ItemTags.BOATS)
+                .add(TopiaryItems.KAURI_BOAT);
+
+        getOrCreateTagBuilder(ItemTags.CHEST_BOATS)
+                .add(TopiaryItems.KAURI_CHEST_BOAT);
     }
 }

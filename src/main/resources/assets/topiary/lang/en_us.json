@@ -20,6 +20,9 @@
   "block.topiary.kauri_sign": "Kauri Sign",
   "block.topiary.kauri_hanging_sign": "Kauri Hanging Sign",
 
+  "item.topiary.kauri_boat" : "Kauri Boat",
+  "item.topiary.kauri_chest_boat" : "Kauri Chest Boat",
+
   "block.topiary.kauri_leaves": "Kauri Leaves",
 
   "block.topiary.kauri_sapling": "Kauri Sapling",

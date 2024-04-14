@@ -1,17 +1,13 @@
 package net.sporent.topiary;
 
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
-import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
-import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.block.entity.SignBlockEntityRenderer;
-import net.minecraft.client.render.entity.model.EntityModelLoader;
 import net.sporent.topiary.block.TopiaryBlocks;
-import net.sporent.topiary.block.TopiaryWoodSets;
-import net.sporent.topiary.world.biome.TopiaryBiomes;
+import net.sporent.topiary.entity.TopiaryBoats;
 
 public class TopiaryClient implements ClientModInitializer {
     @Override
@@ -22,12 +18,12 @@ public class TopiaryClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.HEMLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TopiaryBlocks.TALL_HEMLOCK, RenderLayer.getCutout());
 
-
-
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> pos != null && world != null
                 ? BiomeColors.getFoliageColor(world, pos)
                 : -1, TopiaryBlocks.KAURI_LEAVES);
 
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x398029, TopiaryBlocks.KAURI_LEAVES);
+
+        TerraformBoatClientHelper.registerModelLayers(TopiaryBoats.KAURI_BOAT_ID, false);
     }
 }

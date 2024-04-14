@@ -6,6 +6,7 @@ import net.sporent.topiary.block.TopiaryBlockSets;
 import net.sporent.topiary.block.TopiaryBlocks;
 import net.sporent.topiary.block.TopiaryFlammableBlockRegistry;
 import net.sporent.topiary.block.TopiaryStrippableBlockRegistry;
+import net.sporent.topiary.entity.TopiaryBoats;
 import net.sporent.topiary.item.TopiaryItemGroups;
 import net.sporent.topiary.item.TopiaryItems;
 import net.sporent.topiary.world.gen.TopiaryWorldGeneration;
@@ -24,5 +25,6 @@ public class Topiary implements ModInitializer {
 		TopiaryFlammableBlockRegistry.registerFlammableBlocks();
 		TopiaryStrippableBlockRegistry.registerStrippableBlocks();
 		TopiaryWorldGeneration.generateWorldGen();
+		TopiaryBoats.registerBoats();
 	}
 }

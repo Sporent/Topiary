@@ -6,6 +6,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.sporent.topiary.block.TopiaryBlocks;
+import net.sporent.topiary.item.TopiaryItems;
 import net.sporent.topiary.util.TopiaryTags;
 
 import java.util.function.Consumer;
@@ -57,6 +58,9 @@ public class TopiaryRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         offerHangingSignRecipe(exporter, TopiaryBlocks.KAURI_HANGING_SIGN, TopiaryBlocks.STRIPPED_KAURI_LOG);
+
+        offerBoatRecipe(exporter, TopiaryItems.KAURI_BOAT, TopiaryBlocks.KAURI_PLANKS);
+        offerBoatRecipe(exporter, TopiaryItems.KAURI_CHEST_BOAT, TopiaryBlocks.KAURI_PLANKS);
 
     }
 }

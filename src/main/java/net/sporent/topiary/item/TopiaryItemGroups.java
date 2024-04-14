@@ -41,11 +41,14 @@ public class TopiaryItemGroups {
                         entries.add(TopiaryItems.KAURI_SIGN);
                         entries.add(TopiaryItems.KAURI_HANGING_SIGN);
 
+                        entries.add(TopiaryItems.KAURI_BOAT);
+                        entries.add(TopiaryItems.KAURI_CHEST_BOAT);
+
                         entries.add(TopiaryBlocks.KAURI_LEAVES);
 
                         entries.add(TopiaryBlocks.KAURI_SAPLING);
 
-                        //April fools easter egg lol
+                        //April fools item
                         //entries.add(TopiaryItems.BEANS);
 
 
